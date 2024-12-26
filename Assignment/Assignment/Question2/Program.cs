@@ -18,11 +18,11 @@ namespace Question2
             Console.WriteLine("Enter your choice:");
             int choice = Convert.ToInt32(Console.ReadLine());
 
-            
+
             switch (choice)
             {
                 case 1:
-                    Console.WriteLine("Addition = "+ (num1 + num2));
+                    Console.WriteLine("Addition = " + (num1 + num2));
                     break;
                 case 2:
                     Console.WriteLine("Substraction = " + (num1 - num2));
@@ -38,6 +38,7 @@ namespace Question2
                     break;
             }
 
+            Console.ReadLine();
         }
     }
 }
