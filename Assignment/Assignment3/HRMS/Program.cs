@@ -13,49 +13,6 @@ namespace HRMS
     {
         static void Main(string[] args)
         {
-
-            #region Person Test
-            //Person prson = new Person();
-            //prson.AcceptInfo();
-            //prson.Print() ; 
-            #endregion
-
-            #region Employee test 
-            //Employee emp = new Employee();
-            //Date date = new Date();
-            //date.AcceptDate();
-            //DepartmentType department; 
-            //Enum.TryParse("HR", out department);
-            //Employee emp2 = new Employee("prahtamesh" , true , "pune" , date , 1000000 , "empNO1" ,department);
-            //emp.AcceptInfoEmp();
-            //emp.PrintEmp();
-            //Console.WriteLine(emp2);
-            #endregion
-
-            #region manager test
-
-            //Manager mngr = new Manager();
-            //mngr.AcceptInfoMngr(); 
-            //mngr.PrintMngr();
-
-
-            #endregion
-
-
-            #region supervisor test 
-            //Supervisor supervisor = new Supervisor();
-            //supervisor.AcceptInfoSpvr(); 
-            //supervisor.PrintSpvr();
-            #endregion
-
-            #region wageemp test 
-
-            //WageEmp emp = new WageEmp();    
-            //emp.AcceptInfoWage();   
-            //emp.PrintWage();
-            #endregion
-
-
             #region date class testing
             Date date  = new Date();
             date.AcceptDate(); 
@@ -67,11 +24,6 @@ namespace HRMS
            int yeardiff =  date - date2; 
             Console.WriteLine("diff betwn two date in year is usign operator overloading : " + yeardiff);
             #endregion
-
-
-
-
-
         }
     }
 }
